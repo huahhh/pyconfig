@@ -29,7 +29,7 @@ class etcd_packge(object):
         }
 
 if __name__ == "__main__":
-    etcd_inst = etcd_packge(host='118.24.66.43')
+    etcd_inst = etcd_packge(host='')
     etcd_res = etcd_inst.get_key('/test/2')
     etcd_res = etcd_inst.etcd_unpack_(etcd_res)
     print(etcd_res)

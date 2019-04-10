@@ -1,1 +1,1 @@
-pyconfig
+# config server for python

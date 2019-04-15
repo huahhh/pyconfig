@@ -14,7 +14,7 @@ from enum import Enum
 
 class path_enum(Enum):
     project_info = '/_pyconfig/metadata/project_info'
-    project_meta = '/_pyconfig/metadata/project'
+    project_meta = '/_pyconfig/metadata/project/'
 
     conf_register = '/{project}/_metadata/conf'
 

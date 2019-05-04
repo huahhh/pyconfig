@@ -3,12 +3,12 @@
 -------------------------------------------------
    File Name：    __init__.py.py
    Description :
-   Author :       Hu Hang
-   date：          2019/4/11
+   Author :       huahng
+   date：          2019/5/4
 -------------------------------------------------
 """
 __author__ = 'huahng'
 
-from pyconfig.pyconfig_server.core.admin_server_handler import config_project_handler
+from .project_handler import project_handler
 
-config_project_inst = config_project_handler()
+project_handler_inst = project_handler()

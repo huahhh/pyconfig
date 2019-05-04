@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-   File Name：    etcd_packge.py
+   File Name：    etcd_client.py
    Description :
    Author :       huahng
-   date：          2019/4/8
+   date：          2019/5/4
 -------------------------------------------------
 """
 __author__ = 'huahng'
@@ -65,5 +65,3 @@ if __name__ == "__main__":
     # res = etcd_i.put('/pyconfig_test/a/name', '1')
     # res = [etcd_inst.etcd_unpack_(i) for i in list(etcd_i.get_prefix('/_pyconfig/metadata/project_info/pyconfig_test/'))]
     # print(res)
-
-

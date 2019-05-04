@@ -1,17 +1,16 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-   File Name：    etcd_put.py
+   File Name：    manager.py
    Description :
    Author :       huahng
-   date：          2019/4/8
+   date：          2019/5/4
 -------------------------------------------------
 """
 __author__ = 'huahng'
 
-import etcd3
+from pyconfig.pyconfig_server.app import create_app
 
-class etcd_get(object):
+app = create_app('pyconfig')
 
-    def __init__(self):
-        self.etcd_clint = etcd3.client()
+app.run()
